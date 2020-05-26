@@ -12,54 +12,167 @@
             <tr>
                 <th>Tag</th>
                 <th>Attribute</th>
+                <th>How to use</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>< h >< /h ></td>
-                <td>attribute</td>
+                <td> < h > < /h > </td>
+                <td>align</td>
+                <td>Was used to specify text alignment (justification) on headline elements</td>
             </tr>
             <tr>
-                <td>tag</td>
-                <td>attribute</td>
+                <td> < p > </td>
+                <td>clear</td>
+                <td>Was used to force a paragraph to appear below sibling elements rather than next to sibling elements within a parent element.</td>
             </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h2>Differentiation tag</h2>
-    <table>
-        <thead>
-            <tr>
-                <th>Tag</th>
-                <th>Similarity</th>
-                <th>Differentiation</th>
+                <td> < div > < /div > </td>
+                <td>align</td>
+                <td>Was used to specify the alignment of a div element.</td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
-                <td>tag</td>
-                <td>same</td>
-                <td>difference</td>
+                <td> < img > </td>
+                <td>
+                    crossorigin		<br>
+                    height			<br>
+                    srcset			<br>
+                    align			<br>
+                    alt				<br>
+                    border			<br>
+                    controls		<br>
+                    dynsrc			<br>
+                    hspace			<br>
+                    ismap			<br>
+                    longdesc		<br>
+                    loop			<br>
+                    lowsrc			<br>
+                    name			<br>
+                    naturalsizeflag	<br>
+                    nosave			<br>
+                    start			<br>
+                    suppress		<br>
+                    usemap			<br>
+                    width			<br>
+                    src				<br>
+                </td>
+                <td>
+                    Indicates that CORS headers should be used in the HTTP request, and specifies whether or not to use credentials.                                                                             <br>
+                    Identifies the intrinsic height of an image file, in CSS pixels.                                                                                                                             <br>
+                    Defines multiple sizes of the same image, allowing the browser to select the appropriate image source.                                                                                       <br>
+                    Was previously used to specify the alignment and placement of an image relative to the surrounding text. It has been deprecated and should not be used.                                      <br>
+                    Defines alternate text, which may be presented in place of the image.                                                                                                                        <br>
+                    Previously used to define a border on an image element. It has been deprecated and should no longer be used.                                                                                 <br>
+                    Toggled media player controls when used in conjunction with the < code > dynsrc < /code > attribute. Both attributes are now deprecated.                                                           <br>
+                    An early failed attempt to include native video playback in HTML.                                                                                                                            <br>
+                    Previously used to add horizontal space on both side of an image. It is now deprecated.                                                                                                      <br>
+                    Identifies an image as a server-side image map. When the containing anchor link is clicked, the coordinates of the mouse will be included in the request.                                    <br>
+                    Defines a URL at which can be found more information about the image. It was written out of the HTML5 specification, but its status is not quite so clear as other deprecated features.      <br>
+                    Previously used to specify the number of times a video should play, when used in conjunction with the dynsource attribute. Both attributes have been deprecated.                             <br>
+                    Specified a smaller or lower-quality version of an image.                                                                                                                                    <br>
+                    Identified the image or provided additional information about it. Deprecated in HTML 4.0 in favor of other attributes.                                                                       <br>
+                    This attribute does nothing. It was once used by a proprietary software system.                                                                                                              <br>
+                    Was intended to prevent users from downloading an image. Was never a part of the HTML specification, and not widely implemented.                                                             <br>
+                    Was used in conjunction with the dynsrc attribute to add a video that would load in supported browsers in the place of the image that would otherwise be displayed.                          <br>
+                    Used by the now-defunct Netscape browser to suppress the display of image prior to image download completion.                                                                                <br>
+                    Specifies a client-side image map to be used with the image.                                                                                                                                 <br>
+                    Indicates the intrinsic width of the image, in CSS pixels.                                                                                                                                   <br>
+                    Specifies the URL of an image to be displayed.                                                                                                                                               <br>
+                </td>
             </tr>
-        </tbody>
-    </table>
-    <hr>
-    <h2>Input type</h2>
-    <table>
-        <thead>
             <tr>
-                <th>Type name</th>
-                <th>Detail</th>
-                <th>Example</th>
+                <td> < a > < /a > </td>
+                <td>
+                    hreflang	<br>
+                    download    <br>
+                    target	    <br>
+                    title	    <br>
+                    href	    <br>
+                    name	    <br>
+                </td>
+                <td>
+                    Specifies the language of the linked resource.                                 <br>
+                    Directs the browser to download the linked resource rather than opening it.    <br>
+                    Specifies the context in which the linked resource will open.                  <br>
+                    Defines the title of a link, which appears to the user as a tooltip.           <br>
+                    Specifies the linked document, resource, or location.                          <br>
+                    Depreciated - do not use.                                                      <br>
+                </td>
             </tr>
-        </thead>
-        <tbody>
             <tr>
+                <td> < ul > < /ul > </td>
                 <td>type</td>
-                <td>detail</td>
-                <td>example</td>
+                <td>Was used to set list types.</td>
+            </tr>
+            <tr>
+                <td> < ol > < /ol > </td>
+                <td>
+                    type    <br>
+                    start   <br>
+                </td>
+                <td>Specifies the type of list marker that should be u      <br>
+                    Defines the starting number in an ordered list.         <br>
+                </td>
+            </tr>
+            <tr>
+                <td> < table > < /table > </td>
+                <td>
+                    frame                     <br>
+                    rules			          <br>
+                    align                     <br>
+                </td>
+                <td>The frame attribute was used to define the visible borders of a table. It is now deprecated and should no longer be used.                                                                         <br>
+                    Was used to specify the display of internal borders between rows and colums. This attribute has been deprecated. Use CSS to style table borders instead.                                          <br>
+                    Was used to align an HTML table to the left, right, or centered relative to the parent element. This attribute has been deprecated and CSS should be used to control the position of a table.     <br>
+                </td>
+            </tr>
+            <tr>
+                <td> < form > < /form > </td>
+                <td>
+                    accept-charset	 <br>
+                    action			 <br>
+                    autocomplete	 <br>
+                    enctype			 <br>
+                    method			 <br>
+                    name			 <br>
+                    novalidate		 <br>
+                    rel				 <br>
+                    target			 <br>
+                </td>
+                <td>
+                    Specifies the character encodings that are to be used for the form submission                            <br>
+                    Specifies where to send the form-data when a form is submitted                                           <br>
+                    Specifies whether a form should have autocomplete on or off                                              <br>
+                    Specifies how the form-data should be encoded when submitting it to the server (only for method="post")  <br>
+                    Specifies the HTTP method to use when sending form-data                                                  <br>
+                    Specifies the name of a form                                                                             <br>
+                    Specifies that the form should not be validated when submitted                                           <br>
+                    Specifies the relationship between a linked resource and the current document                            <br>
+                    Specifies where to display the response that is received after submitting the form                       <br>
+                </td>
+            </tr>
+            <tr>
+                <td> < button > < /button > </td>
+                <td>
+                    accesskey	<br>
+                    disabled	<br>			
+                    name		<br>			
+                    type		<br>			
+                    value		<br>			
+                    onClick		<br>			
+                    tabindex	<br>
+                </td>
+                <td>
+                    Defines an keyboard shortcut for the button. As of HTML5, this is a global attribute that can be used on any element.   <br>
+                    Disables the button. It cannot be clicked and usually appears gray.                                                     <br>
+                    Defines the name of the button, which is used for form inputs and labels.                                               <br>
+                    Specifies the type of the button.                                                                                       <br>
+                    Sets the initial value of the button element.                                                                           <br>
+                    Runs a script when a button is clicked.                                                                                 <br>
+                    Determines the order of selection when the tab key is used.                                                             <br>
+                </td>
             </tr>
         </tbody>
     </table>
+    
 </body>
 </html>
