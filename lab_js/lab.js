@@ -1,11 +1,11 @@
 class UserTemplate{
 
-    constructor(name,password,age,startDate) {
+    constructor(name,password,age,loginDate) {
         this.name = name
         this.password = password
         this.age = age
         this.connected = false
-        this.startDate = new Date();
+        this.loginDate = loginDate
     }
     
     login() {
